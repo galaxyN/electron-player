@@ -1,0 +1,16 @@
+.btn{
+    width: 100%;
+}
+
+.list-group{
+    height: 60vh;
+    overflow-y: auto;
+}
+/* 隐藏滚动条 */
+.list-group::-webkit-scrollbar { 
+    width: 0 !important 
+}
+
+#tracksList .col-2 .fas:hover{
+    cursor: pointer;
+}
